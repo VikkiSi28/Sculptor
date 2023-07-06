@@ -77,7 +77,7 @@
                 app:backgroundTint="@color/yellow1"
                 app:fabSize="auto"
                 app:srcCompat="@drawable/ic_plus"
-                app:tint="@color/pg_5"
+                app:tint="@color/orange"
                 />
 
 

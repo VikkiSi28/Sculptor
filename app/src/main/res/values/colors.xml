@@ -12,5 +12,6 @@
     <color name="transparent">#00FFFFFF</color>
     <color name="azure">#6cc6cb</color>
     <color name="grey_blue">#141d2c</color>
+    <color name="orange">#CBFF9800</color>
 
 </resources>
