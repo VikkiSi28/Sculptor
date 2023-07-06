@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SculptorJ</string>
+    <string name="txt_gold">Gold:</string>
+    <string name="tool">Tool</string>
+    <string name="toolx2">Tool x2</string>
+    <string name="toolx5">Tool x5</string>
+    <string name="toolx10">Tool x10</string>
+    <string name="toolx50">Tool x50</string>
+    <string name="back_to_game">Back to game</string>
+    <string name="the_shop">The shop</string>
+    <string name="select_tool">Select tool:</string>
+    <string name="selected">Selected</string>
+    <string name="x2">10000$</string>
+    <string name="x5">60000$</string>
+    <string name="x10">140000$</string>
+    <string name="x50">250000$</string>
+    <string name="back_to_shop">Back to shop</string>
+    <string name="buy_gold">Buy gold + 50000</string>
+    <string name="successful_purchase">Successful purchase</string>
+</resources>
