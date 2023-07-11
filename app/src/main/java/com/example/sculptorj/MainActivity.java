@@ -4,14 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.cardview.widget.CardView;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class MainActivity extends AppCompatActivity {
     ImageView sculpture;
@@ -39,6 +43,16 @@ public class MainActivity extends AppCompatActivity {
         gold_txt.setText(getString(R.string.txt_gold)+" " +score_gold);
         pb = findViewById(R.id.progress);
         pb.setProgress(count);
+
+        FloatingActionButton goto_shop = findViewById(R.id.goto_shop);
+        goto_shop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,
+                        Plus.class));
+            }
+        });
+
 
         sculpture = findViewById(R.id.sculpture);
         imgSet();
@@ -102,5 +116,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
     //метод с условием смены картинок - конец
+
+
+
+
 
 }
